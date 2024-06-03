@@ -1,0 +1,32 @@
+/*Modelo de caixa
+
+.conteudo{
+    border: 1px solid;
+    espaçamento interno
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+
+    padding: 20px 15px 10px 5px; Sentido horário
+    padding: 20px; Todos os lados
+
+    espaçamento externo
+    margin: 20px;
+    
+
+    width: 150px;
+}
+*/
+
+/*Noticia*/
+
+#noticia{
+    background: #f9f9f9;
+    border: 1px solid;
+    padding: 10px;
+}
+
+h2{
+    margin: 0px;
+}
