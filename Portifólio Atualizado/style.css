@@ -1,0 +1,284 @@
+/* Estilização PADRÃO */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: white;
+  height: 100vh;
+}
+
+.interface {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+h2.titulo{
+  color: #333;
+  font-size: 36px;
+  text-align: center;
+}
+
+h2.titulo span {
+  color: #f1c40f;
+}
+
+.btn-contato button {
+  padding: 10px 40px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #f1c40f;
+  border: 0;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  box-shadow: 0 0 10px #f1c40f;
+  transform: scale(1.05);
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 40px 4%;
+}
+
+/* Estilo do cabeçalho */
+
+header {
+  padding: 40px 4%;
+  width: 100%;
+}
+
+header .menu-geral {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 20px;
+  border-radius: 20px;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+}
+
+header a:hover {
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li {
+  display: inline-block;
+  padding: 0 90px;
+}
+
+/* Estilo do Topo */
+section.topo-site {
+  padding: 80px 4%;
+}
+
+section.topo-site .flex {
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+}
+
+.topo-site .txt-topo h1 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #333;
+  text-transform: uppercase;
+  line-height: 40px;
+}
+
+.topo-site .txt-topo h1 span {
+  color: #f1c40f;
+}
+
+.topo-site .txt-topo p {
+  font-size: 18px;
+  color: #666;
+  margin: 40px 0;
+}
+
+.topo-site .img-topo img {
+  position: relative;
+  border-radius: 200px;
+  animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+
+/* Estilo das Especialidades*/
+
+section.especialidades {
+  padding: 40px 4%;
+}
+
+section.especialidades .flex {
+  gap: 40px;
+}
+
+.especialidades .especialidades-box{
+  color: #333;
+  padding: 40px;
+  border-radius: 20px;
+  border: 2px solid #f1c40f;
+  margin-top: 40px;
+  transition: 0.2s;
+}
+
+.especialidades .especialidades-box:hover {
+  box-shadow: 0 0 10px #f1c40f;
+  transform: scale(1.05);
+}
+
+.especialidades .especialidades-box i {
+  font-size: 70px;
+  color: #f1c40f;
+}
+
+.especialidades .especialidades-box h3 {
+  font-size: 28px;
+  margin: 10px 0;
+}
+
+
+/* Estilo do Sobre */
+
+section.sobre {
+  padding: 80px 4%;
+}
+
+section.sobre .flex {
+  gap: 60px;
+  align-items: center;
+}
+
+.sobre .img-sobre img {
+  border-radius: 50%;
+}
+
+.sobre .txt-sobre h2 {
+  font-size: 40px;
+  line-height: 40px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.sobre .txt-sobre span{
+  color: #f1c40f;
+  display: block;
+}
+
+.sobre .txt-sobre p {
+  margin: 20px 0;
+  text-align: justify;
+}
+
+.sobre .txt-sobre .btn-social button{
+  background-color: #f1c40f;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+  margin-right: 12px;
+  transition: 0.2s;
+}
+
+.sobre .txt-sobre .btn-social button:hover {
+  box-shadow: 0 0 10px #f1c40f;
+  transform: scale(1.05);
+}
+
+
+/* Estilo dos Projetos */
+
+section.projetos {
+  padding: 80px 4%;
+}
+
+section.projetos .flex {
+  gap: 40px;
+}
+
+.projetos .projetos-box {
+  height: 400px;
+  width: 100%;
+  margin-top: 40px;
+  background-color: #f1c40f;
+  padding: 20px;
+  border-radius: 20px;
+  transition: 0.2s;
+}
+
+.projetos .projetos-box:hover {
+  box-shadow: 0 0 10px #f1c40f;
+  transform: scale(1.05);
+}
+
+.projetos .projetos-box h3 {
+  font-size: 28px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.projetos .projetos-box p {
+  text-align: justify;
+}
+
+.projetos .btn-git {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.projetos .btn-git button{
+  background-color: #f1c40f;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+/* Estilo do rodapé */
+
+footer .rodape {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/* Animações */
+@keyframes flutuar {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: 30px;
+  }
+}
